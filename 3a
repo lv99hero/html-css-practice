@@ -1,0 +1,141 @@
+<style>
+
+  .uber {
+    background-color: black;
+    color: white;
+    height: 48px;
+    width: 120px;
+    font-weight:bold;
+    cursor:pointer;
+    transition: 1s;
+    border:none;
+  }
+
+  .uber:hover {
+    opacity: .65;
+
+  }
+
+  .uber:active {
+
+    opacity: .1;
+  }
+
+  .amazon {
+    background-color: rgb(235, 198, 37);
+    border: none;
+    color: black;
+    height: 48px;
+    width: 200px;
+    font-weight: bold;
+    cursor:pointer;
+    transition: opacity .1s;
+    border-radius: 28px;
+  }
+
+  .amazon:hover {
+
+    opacity: .65;
+  }
+
+  .github {
+    background-color: rgb(60, 224, 68);
+    border-radius: 8px;
+    color: white;
+    height: 48px;
+    width: 120px;
+    font-weight:bold;
+    cursor:pointer;
+    transition: 1s;
+    border:none;}
+
+  .bootstrap {
+    background-color: rgb(171, 0, 194);
+    border-radius: 8px;
+    color: white;
+    height: 48px;
+    width: 120px;
+    font-weight:bold;
+    cursor:pointer;
+    transition: 1s;
+    border:none;
+  }
+
+  .download {
+    background-color: rgb(255, 255, 255);
+    color: rgb(150, 131, 131);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 8px;
+    font-weight:bold;
+    cursor:pointer;
+    transition: 1s;
+    
+  }
+
+  .download:hover {
+    background: black;
+    color: white
+    
+
+  }
+  .download:active {
+    transition: .1;
+    background-color: rgba(0, 0, 0, 0.582);
+
+  }
+
+  .linkedin {
+    background-color: rgb(32, 22, 168);
+    border-radius: 30px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-weight:bold;
+    cursor:pointer;
+    transition: 1s;
+    border:none;
+    vertical-align: top;
+  }
+
+  .linkedin:hover {
+
+    background-color:rgb(20, 221, 37);
+    color:rgb(32, 22, 168);
+
+  }
+
+  .save {
+    background-color: rgb(255, 255, 255);
+    color: rgb(13, 110, 255);
+    border-color:rgb(13, 110, 255);
+    border-radius: 24px;
+    height: 48px;
+    width: 120px;
+    font-weight:bold;
+    cursor:pointer;
+    transition: .5s;
+
+  }
+
+  .save:hover {
+
+    background-color: rgb(13, 110, 255);
+    color:rgb(255, 255, 255);
+    border:none;
+  }
+
+</style>
+
+
+<button class="uber">Request now</button>
+<button class="amazon">Add to Cart</button>
+<button class="github">Sign up</button>
+<button class="bootstrap">Get started</button>
+<button class="download">Download</button>
+<button class="linkedin">Apply on company website</button>
+<button class="save">Save</button>
